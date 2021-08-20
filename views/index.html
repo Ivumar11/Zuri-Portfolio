@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Ivuelekwa Chidiebere</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="default.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+	<section class="sec1">
+		<div class="container">
+			<div class="hi-div">
+				<h1>Hi, I'm Ivuelekwa Stephen Chidiebere</h1>
+			</div>
+
+			<div class="intro-container">
+				<div class="nav-container">
+					<div class="dots-container">
+						<div class="dot-div dot1"></div>
+						<div class="dot-div dot2"></div>
+						<div class="dot-div dot3"></div>
+					</div>
+
+					<ul class="navigation">
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+
+					</ul>
+				</div>
+
+				<div class="left-col">
+					<img class="profile" src="images/profile.jpeg">
+					<h5 style="text-align: center; line-height: 0;">@iAmChidiebere</h5>
+					<div id="theme-options-container">
+						<div data-mode="light" id="light-mode" class="theme-dot"></div>
+						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+						<div data-mode="green" id="green-mode" class="theme-dot"></div>
+						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+					</div>
+
+					<p id="settings-note">*Theme settings is currently not available</p>
+				</div>
+
+				<div class="right-col">
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="tl" class="corner"></div>
+							<div id="tr" class="corner"></div>
+							<h3>What I do</h3>
+							<p>I offer backend solutions using node.js and php</p>
+							<div id="bl" class="corner"></div>
+							<div id="br" class="corner"></div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="sec2">
+		<div class="container">
+			<div id="about" class="about-skills">
+				<div class="about-container">
+					<h3>More about me</h2>
+					<p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+
+				<div class="skills-container">
+					<h3>Skill Set</h2>
+					<ul class="skill-list">
+						<li>Html/CSS</li>
+						<li>Javascript</li>
+						<li>Python</li>
+						<li>Java</li>
+						<li>Kotlin</li>
+						<li>Android development</li>
+						<li>C#</li>
+					</ul>
+				</div>
+
+				<div class="education-container">
+					<h3>Educational Background</h3>
+					<div class="schools">
+						<div class="sec-sch">
+							<h5 class="cert"> Secondary school leaving certificate</h5>
+							<p class="date">2009 - 2015</p>
+							<p class="school">Barek Memorial High School</p>
+						</div>
+
+						<div class="ter-sch">
+							<h5 class="cert"> Bachelor Of Science Computer Science</h5>
+							<p class="date">2019 - 2024</p>
+							<p class="school">University Of Ibadan</p>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec1">
+		<div class="container">
+			<div class="exp-container">
+				<h3>Professional Experience</h3>
+				<div class="exps">
+					<div class="exp zuri">
+						<p class="role">Web Developer Intern</p>
+						<p class="mdate">March 2021 - June 2021</p>
+						<p class="comp-name">Zuri Team, Lagos, Nigeria.</p>
+						<img class="logo" src="images/zuri.svg">
+						<ul class="did">
+							<li>Properly handled user's inputs in forms</li>
+							<li>Carried out secure authentication for registered users of web app</li>
+							<li>Carried out code optimization on existing software</li>
+						</ul>
+					</div>
+
+					<div class="exp hng">
+						<p class="role">Backend Developer Intern</p>
+						<p class="mdate">August 2021 - Present</p>
+						<p class="comp-name">HNG, Lagos, Nigeria.</p>
+						<img class="logo" src="images/hng.png">
+						<ul class="did">
+							<li>Refactor existing codes</li>
+							<li>Working with teams to deliver cutting edge software</li>
+							<li>Learning the MERN stack on the job</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec2">
+		<div id="contact" class="container">
+			<a href=""></a>
+			<h3 style="text-align: center;">Get In Touch</h3>
+
+			<form id="contact-form" method="POST" action="/received">
+				<a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name" required>
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject" required>
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email" required>
+
+				<label>Message</label>
+				<textarea class="input-field" name="message" required></textarea>
+
+				<input id="submit-btn" type="submit" value="Send">
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>
